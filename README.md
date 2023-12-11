@@ -4,6 +4,10 @@
 
 
 
+
+
+For personal website until I feel like moving it:
+
 Resources and Attributions:
 
     Banner: Vecteezy.com
