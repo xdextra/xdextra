@@ -2,155 +2,177 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f3eded;
 }
 
-.general {
-    background-color: black;
-}
-
-body {
+.whole-page {
     display: flex;
-    align-items: center;
-    justify-content: center;
-
+    border-top: 2px solid black;
 }
 
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #8C1ABB;
-    overflow: hidden;
-    margin: 10px;
-    position: relative;
+.sidenav {
+    padding: 15px;
+    color: #fff;
+    min-width: 200px;
+    border-right: 1px solid #000;
 }
 
-.navbar a {
-    float: left;
-    color: #e6dae1;
-    text-align: center;
-    padding: 20px 20px 20px;
-    font-size: 17px;
-    font-family:fantasy;
-    border-right: 1px solid;
-}
-
-.navbar :hover {
-    background-color: #ddd;
+.sidenav a {
+    display: block;
+    padding: 10px;
     color: black;
 }
 
-.left-right-seperator {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    flex-wrap: wrap;
-    align-content: normal;
-    padding: 1%;
+.sidenav a:hover {
+    background-color: #cac7c7;
+}
+
+.sidenav_travel {
+    position: fixed;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    max-height: 225px;
+    justify-content: center;
+}
+
+.side_lock {
+    width:15%;
+    max-width: 200px;
+}
+
+.pic_six {
+    display: flex;
+}
+
+.trash {
+    width: 100%;
+    max-width: 450px;
+    padding-right: 30px;
+}
+
+.top {
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.cs_soft {
+    padding-bottom: 20px;
+}
+
+.skills {
+    padding-left: 30px;
+}
+
+.main {
+    flex: 1; 
+}
+
+.sect {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.border {
     padding-bottom: 30px;
+    border-bottom: 2px solid #000;
 }
 
-.b2tleft {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    color: #8C1ABB;
+.abt_desc {
+    padding-top: 20px;
+    line-height: 2;
 }
 
-.topleftname { 
-    padding-left: 10%;   
-    font-size: 3em;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-.oneliner {
-    color: #ddd;
-    padding-left: 2%;
-}
-
-.b2tright {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    background-color: #4ACD62;
-    color: black;
-    padding: 10%;
-    border-radius: 25px;
-}
-
-.arrow {
+/* timeline section */
+.timeline {
+    margin: 20px auto;
     padding: 20px;
+}
+  
+    .t_line {
+        border-left: 2px solid black;
+    }
+  
+    .t_box {
+        position: relative;
+        margin: 0 0 20px 20px;
+        padding: 6px;
+        color: black;
+        border-radius: 1px;
+        max-width: 400px;
+        outline: 5px outset #262728;
+        outline-offset: 0px;
+    }
+
+    .t_school {
+        color: black;
+        position: relative;
+    }
+  
+    .t_school::before {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background: black;
+        border-radius: 999px;
+        left: -35px;
+        border: 3px solid #ada3a3;
+    }
+
+.exp_box {
+    padding-top: 20px;
     display: flex;
-    
 }
 
-.me {
-    max-block-size: 50%;
-   
+.exp_pic {
+    padding-left: 20px;
 }
 
-.box {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    color: aqua;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.exp_list {
+    padding-top: 15px;
+    padding-left: 40px;
+    line-height: 2;
 }
 
-.abt {
+.prj_line {
     display: flex;
-    justify-content: top;
-    align-content: center;
+    padding-top: 25px;
+}
+
+.prj_box {
+    border: 5px ridge #86898b;
+    width: auto;
+    min-width: 300px;
+    padding: 15px;
     text-align: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    color: #4ACD62;
-    background-color: #8C1ABB;
-    position: relative;
-    min-height: fit-content;
+
+}
+
+.prj_box h3 {
+    padding-bottom: 15px;
+}
+
+.prj_box p {
+    line-height: 1.5;
+}
+
+.soc {
+    display: flex;
     font-size: 20px;
-}
-
-.contact {
-    color: black;  display: flex;
-    justify-content: top;
-    align-content: center;
-    text-align: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    background-color: #4ACD62;
-    position: relative;
-    min-height: fit-content;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-
-}
-
-.contact-box {
-    background-color: #8C1ABB;
-    color: #ddd;
-}
-
-.contact-box a {
-    color: #ddd;
-}
-
-.contact-box a:hover {
-    color: black;
 }
 
 .LinkedIn {
-    padding-top: 10px;
-    size: 10%;
+    padding-top: 20px;
+    max-width: 40px;
 }
 
-.b2t a{
-  position: absolute;
-  color: white;
+.socials {
+    padding-left: 50px;
+    width: 50%;
 }
-
 
 
 

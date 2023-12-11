@@ -1,128 +1,222 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: black">
 
-	<script>
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width">
+	<title>xdextraV1</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<div class="whole-page">
+
+<div class="sidenav">
+	<div class="sidenav_travel">
+		<a  href="#top">Xavier Dextra</a>
+		<a  href="#abt">About Me</a>
+		<a  href="#edu">Education</a>
+		<a  href="#exp">Experience</a>
+		<a  href="#prj">Projects</a>
+		<a  href="#soc">Social</a>
+	</div>
+</div>
+
+<main class="main">
+	<div class="banner">
+		<img class="banner" src="img/banner.jpg" alt="banner tech image"/>
+	</div>
+	
+
+	<div class="pic_six">
+		<img class="trash" src="img/sir_trash.jpg" alt="A picture of Xavier Dextra, looks kinda funny" />
 		
-
-		function f() {
-			var collme = document.querySelector("#abtt");
+		<div class="top">
+			<h1>Xavier Dextra</h1>
+			<h2 class="cs_soft">Computer Science / Software Engineering</h2>
+			<p>Email:</p>
+			<p>xdextra@purdue.edu</p>
+			<p class="cs_soft">xavierdextra2019@gmail.com</p>
+			<p class="cs_soft">catch_error("it's not a bug it's a feature")</p>
+			<p class="cs_soft">Purdue University - West Lafayette, IN</p>
+			<p>Skills:</p>
+			<ul class="skills">
+				<li>C, Java, etc</li>
+				<li>Problem Solving, Leadership, Great Listener, etc </li>
+				<li>Great at explaining complicated topics in easy to understand ways</li>
+			</ul>
 			
-			if (collme.style.display != 'none') {
-				collme.style.display = 'none';
-			} else {
-				collme.style.display = 'inline';
-			}
-		}
+		</div>
+	</div>
 
+	<div class="border"></div>
 
-	</script>
-	
-	
-	<head>
-		<meta charset="UTF-8" />
-		<title>xdextraV1</title>
-		<meta name="viewport" content="width=device-width,initial-scale=1" />
-		<meta name="description" content="" />
-		<link rel="icon" href="favicon.png">
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-
-
-	
-
-	<main class="general">
+	<div id="abt" class="sect">
 		
+		<h1 class="abt">About Me</h1>
 
-		<nav id="top" class="navbar"> <!--got base from w3schools.com-->
-			<a  style="border-left: 1px solid;"  href="#abt">About Me</a>
-			<a  href="#edu">Education</a>
-			<a  href="#exp">Experience</a>
-			<a  href="#prjs">Projects</a>
-			<a  href="#contact">Contact</a>
-			<a  href="#version">Version</a>
+		<p class="abt_desc">Hello, my name is Xavier Dextra and I'm currently finishing up my BS in Computer Science at Purdue University. <br/>
+			I would like to use my unique perspective and analytical problem solving skills to create and maintain the best software. <br>
+			To pursue that dream I'm looking for internships and full time positions. <br>
+			Thank you for the potential opportunity, and I'll be sure to follow up as soon as possible.
+		</p>
+	</div>
+
+	<div class="border"></div>
+
+	<div id="edu" class="sect"> <!--timeline idea from alvarotrigo.com-->
+		<h1  class="edu">Education</h1>
+
+		<div class="timeline">
+			<div class="t_line">
+				
+				<div class="t_box">
+					<div>
+						<h2 class="t_school">Purdue University, West Lafayette, IN</h2>
+						<h3>August 2019 - May 2024</h3>
+						<p>GPA: 3.2 <br> Pursuing a Bachelor Degree of Science in Computer Science</p>
+					</div>
+				</div>
+
+				<div class="t_box">
+					<div>
+						<h2 class="t_school">Ivy Tech, Gary, IN</h2>
+						<h3>August 2015 - May 2019 <br>(during highschool)</h3>
+						<p>GPA: 3.4 <br> Associate Degree in General Studies</p>
+					</div>
+				</div>
+
+				<div class="t_box">
+					<div>
+						<h2 class="t_school">Lighthouse College Prep Academy, Gary, IN</h2>
+						<h3>August 2015 - June 2019</h3>
+						<p>GPA: 3.2 <br> Highschool Diploma</p>
+					</div>
+				</div>
 			
-		</nav>
-
-		<div class="left-right-seperator">
-			<div class="b2tleft">
-				<img class="arrow" src="img/arrow.png"/>
-				<h1 class="topleftname" >Xavier Dextra</h1>
-				<h2 class="oneliner">catch_error("it's not a bug it's a feature"); </h2>
-			</div>
-
-			<div class="b2tright">
-				<img class="me" src="img/temp me.png" />
-				<h1>Xavier Dextra</h1>
-				<h2>He/Him</h2>
-				<p>Computer Science / Software Engineering</p>
-				<p>Purdue Unversity</p>
 			</div>
 		</div>
-
-		<body class="box">
-			<section id="abt" class="abt">
-				<h1 onclick="f()"  style="font-size: 3em;">About Me</h1>
-				<p  id="abtt" style="color: white;">Hello, my name is Xavier Dextra and I'm currently finishing up my BS in Computer Science at Purdue University. <br/>
-					I would like to use my unique perspective and analytical problem solving skills to create and maintain the best software. <br>
-					To pursue that dream I'm looking for internships and full time positions. <br>
-					Thank you for the potential opportunity, and I'll be sure to follow up as soon as possible.
-				</p>
-
-			</section>
 		
-			<section id="edu" class="edu" color="blue">
-				<h1>Education</h1>
-				<p>fhdslfhdsajkflhdsakjlfhdskajlf</p>
-
-			</section>
-
-			<section id="exp" class="exp">
-				<h1>Experience</h1>
-				<p color="blue">fhdslfhdsajkflhdsakjlfhdskajlf</p>
-
-			</section>
-
-			<section id="prjs" class="prjs">
-				<h1>Projects</h1>
-				<p>fhdslfhdsajkflhdsakjlfhdskajlf</p>
-
-			</section>
-
-			<section style="font-size: 2em;" id="contact" class="contact">
-				<h1>CONTACT ME</h1>
-				<div class="contact-box"> <!--got spacing from w3schools.com-->
-				 <p>Email: xdextra@purdue.edu <br> <span> &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; xavierdextra2019@gmail.com</span></p>
-				 <p>Phone: (***) *** - ****</p>
-				 <img class="LinkedIn"  src="img/linked in logo.png">
-				 <a href="https://www.linkedin.com/in/xavier-dextra/" target="_blank">LinkedIn</a>
-			    </div>
-				<br>
-			</section>
-
-			<section id="version" class="version">
-				<h1>Version</h1>
-				<p>Coming Soon....</p>
-			</section>
-
-			<footer class="b2t">
-				<a  href="#top">Back to top</a>
-			</footer>
+	</div>
 
 
-		</body>
+	<div class="border"></div>
+
+	<div id="exp" class="sect">
+
+		<h1 class="exp">Experience</h1>
+
+		<div class="exp_box">
+			<div class="exp_desc">
+				<h2>Amazon Sorting, Lafayette, IN</h2>
+				<h3>Part-Time Package Sorting</h3>
+				<ul  class="exp_list">
+					<li>Fast Paced</li>
+					<li>Problem Solving</li>
+					<li>Attention to Details</li>
+				</ul>
+			</div>
+			<img class="exp_pic" src="img/amazon warehouse.jpg" alt="amazon box on warehouse conveyor">
+		</div>
+
+		<div class="exp_box">
+			<div class="exp_desc">
+				<h2>Purdue University, West Lafayette, IN</h2>
+				<h3>Residential Assistant</h3>
+				<ul  class="exp_list">
+					<li>Leadership</li>
+					<li>Event Planning</li>
+					<li>Conflict Resolution</li>
+				</ul>
+			</div>
+			<img class="exp_pic" src="img/purdue harrison.jpg" alt="Purdue, Harrison Hall. Outside view">
+		</div>
+
+
+		<div class="exp_box">
+			<div class="exp_desc">
+				<h2>Menards, Merrillville, IN</h2>
+				<h3>Downstocker</h3>
+				<ul  class="exp_list">
+					<li>Customer Service</li>
+					<li>Proactive</li>
+					<li>Sales</li>
+				</ul>
+			</div>
+			<img class="exp_pic" src="img/menards outside.jpg" alt="Outside view of a menards store">
+		</div>
+
+		<div class="border"></div>
+
+		<div id="prj" class="sect">
+		
+			<h1 class="prj">Projects / Extra Curriculars</h1>
+			
+			<div class="prj_line">
+				<div class="prj_box">
+					<h1>1</h1>
+					<h2>Personal Website</h2>
+					<h3>December 2023</h3>
+					<p>This particular website you are on now. 
+						<br>This is my first time doing something like this.
+						<br>It makes me respect designers much more because this is impossible.
+						<br>As I learn more about webdev, more versions of this website will exist.
+						<br>However this one will always be available to show where I started.
+					</p>
+				</div>
+
+				<div class="prj_box">
+					<h1>2</h1>
+					<h2>The Pitch</h2>
+					<h3>Summer 2022</h3>
+					<p>The Pitch is a great summer program in which a team is formed 
+						<br>and tasked with proposing a solution to given problems. 
+						<br>A mock product and business model is formed and presented in the process. 
+						<br>I was lucky enough to be on a winning team as a part of the development squad
+					</p>
+				</div>
+
+				<div class="prj_box">
+					<h1>3</h1>
+					<h2>Boiler Blade</h2>
+					<h3>2019-Current</h3>
+					<p>This is mostly a stress-relieving club.
+						<br>It is a larp-adjacent (belegarth) club. 
+						<br>It allows me to momentarily break away from academics, to focus on something new and interactive.
+						<br>I held leadership positions as Squad Leader, Quartermaster, and Vice President.	
+					</p>
+				</div>
+
+			</div>
+
+
+		</div>
+
+		<div class="border"></div>
+
+		<div class="soc" id="soc" class="sect">
+			
+			<div>
+				<h1>Social</h1>
+				<a href="https://www.linkedin.com/in/xavier-dextra/" target="_blank"><img class="LinkedIn"  src="img/linkedin ts logo.png" alt="gray linkedin logo"></a>
+			</div>
+
+			<img class="socials" src="img/socials image.jpg" alt="social media logos on a keyboard">
+
+		</div>
+		
+		
 
 		
-	</main>
-	<!--<body>
-		<header>
-			<h1></h1>
-		</header>
-		<nav></nav>
-		<main>
-			<section></section>
-			<section></section>
-			<section></section>
-		</main>
-		<footer></footer>
-	</body>
-</html> --> 
+
+
+	</div>
+
+	
+
+
+
+
+</main>
+
+ <!-- <div class="side_lock"></div> -->
+
+</div>

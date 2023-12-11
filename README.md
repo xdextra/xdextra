@@ -1,5 +1,15 @@
 ### Hello there 👋
 
+
+
+
+
+Resources and Attributions:
+
+    Banner: Vecteezy.com
+    Possibly the greatest site of all time: htmlcheatsheet.com/css/
+    Timeline: alvarotrigo.com
+
 <!--
 **xdextra/xdextra** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
