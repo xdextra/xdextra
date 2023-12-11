@@ -7,6 +7,7 @@
 
 
 For personal website until I feel like moving it:
+https://xdextra.github.io/xdextra/
 
 Resources and Attributions:
 
