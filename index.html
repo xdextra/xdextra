@@ -18,12 +18,69 @@
 		<a  href="#prj">Projects</a>
 		<a  href="#soc">Social</a>
 	</div>
+
+
+
+	
+
+
+
 </div>
 
 <main class="main">
 	<div class="banner">
 		<img class="banner" src="img/banner.jpg" alt="banner tech image"/>
 	</div>
+
+
+	<head>
+        <script src="https://randojs.com/1.0.0.js"></script>
+        <script>
+            function showRandomNumber(){
+				var temp = rando(1,8);
+				var temp2 = rando(1,24);
+
+				if (temp == 2) {
+					temp2 = rando(1,21)
+				}
+
+				if (temp == 3) {
+					temp2 = rando(1,17)
+				}
+
+				if (temp == 5 || temp == 7) {
+					temp2 = rando(1,22)
+				}
+
+				if (temp == 6) {
+					temp2 = rando(1,18)
+				}
+
+				if (temp == 8) {
+					temp2 = rando(1,11)
+				}
+
+
+
+
+
+                document.getElementById("myNumber").innerHTML = "Page: " + temp + " Person: " + temp2;
+
+
+            }
+        </script>
+        <style>
+            #myNumber{
+                font-size:25px;
+                text-align:center;
+                margin:50px auto;
+                font-family:Arial, sans-serif;
+            }
+        </style>
+    </head>
+    <body onload="showRandomNumber();">
+        <div id="myNumber"></div>
+    </body>
 	
 
 	<div class="pic_six">
@@ -71,7 +128,7 @@
 				<div class="t_box">
 					<div>
 						<h2 class="t_school">Purdue University, West Lafayette, IN</h2>
-						<h3>August 2019 - May 2024</h3>
+						<h3>August 2019 - December 2024</h3>
 						<p>GPA: 3.2 <br> Pursuing a Bachelor Degree of Science in Computer Science</p>
 					</div>
 				</div>
